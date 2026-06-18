@@ -1,22 +1,3 @@
-# Quiz Application
-
-A full-stack web application for taking knowledge quizzes, featuring user authentication and a scoreboard with top results. The project is built using **Node.js/Express** on the backend, **SQLite** as the database, and **React** on the frontend.
-
-## 🚀 Technologies
-
-### Backend
-- Node.js & Express.js – Core runtime and REST API architecture
-- SQLite3 – Lightweight relational database for storing users, questions, and results
-- JSON Web Tokens (JWT) – Secure user authentication via tokens
-- Bcrypt – Password hashing and protection
-- CORS – Enables cross-origin resource sharing between frontend and backend
-
-### Frontend
-- React (functional components & Hooks) – User interface
-- React Router DOM – Client-side routing and navigation
-- React Context API – Global authentication state management
-- Fetch API – Communication with backend services
-
 
 # Quiz Application
 
