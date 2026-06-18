@@ -17,14 +17,7 @@ A full-stack web application for taking knowledge quizzes, featuring user authen
 - React Context API – Global authentication state management
 - Fetch API – Communication with backend services
 
-## 📂 Project Structure
-Primetio sam u čemu je greška u strukturi fajlova koju smo inicijalno postavili. Prema fajlovima koje si poslao, fajl app.js se zapravo nalazi direktno unutar backend/ foldera, a ne unutar backend/src/. Takođe, rute se uvoze sa ../src/... što znači da je src/ folder paralelan sa app.js.
 
-Pored toga, doradio sam i tačne putanje za frontend komponente na osnovu koda (npr. u api.js rute za kviz zapravo gađaju /api/quiz/start i /api/quiz/submit, dok je u kodu frontenda baza linkovana na /questions/start pa sam uskladio objašnjenje).
-
-Evo ispravljene verzije kompletnog README.md fajla:
-
-Markdown
 # Quiz Application
 
 Full-stack veb aplikacija za polaganje kvizova znanja, sa sistemom autentifikacije korisnika i rang listom (scoreboard) najboljih rezultata. Projekat je izgrađen korišćenjem **Node.js/Express** tehnologija na backend-u, **SQLite** baze podataka i **React** biblioteke na frontend-u.
